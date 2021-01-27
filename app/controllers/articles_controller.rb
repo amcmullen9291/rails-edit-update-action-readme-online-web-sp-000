@@ -20,7 +20,7 @@ end
 def create 
   @article = Article.create(:title => params[:title], description: params[:description])
   
-  redirect_to "articles_path"
+  redirect_to articles_path
 end 
 
 
