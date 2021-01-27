@@ -23,5 +23,7 @@ def create
   redirect_to articles_path
 end 
 
-
+def index 
+  @article = Article.all 
+end 
 end
